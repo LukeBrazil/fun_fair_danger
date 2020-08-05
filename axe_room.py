@@ -1,5 +1,52 @@
-import random
 
+def main():
+    welcome = input('Welcome to the Axe throwing game! Do you have what it takes? Say yes or no...  ')
+    axe_total = 7
+    target_hit = 0
+    if welcome.lower() == 'yes':
+        game_on = True
+    elif welcome.lower() != 'yes':
+        main()
+        game_on == True
+    while game_on == True and target_hit < 5:
+        print('Three targets appear!')
+        target = input('Throw axe at target? Enter yes or no. If you enter anything differntely the program will probably break. So dont. :D   ')
+
+        if target.lower() == 'yes' or 'no':
+            target_hit += 1
+            axe_total -= 1
+            print()
+            print('You hit the target!')
+            print()
+            print('***************************')
+            print()
+            print('Total targets hit ')
+            print()
+            print(target_hit)
+            print()
+            print('Axes remaining')
+            print()
+            print(axe_total)
+            print()
+            print('***************************')
+            print()
+            print()
+        
+            if target_hit == 3:
+                print('*****************************************************')
+                print()
+                print('YOU WON THE GAME!!!!')
+                print()
+                print('Here is your Golden Axe! Use this Golden Axe to continue through the maze!')
+                print()
+                print('Your code for Room 2 is: GoldenAxe')
+                print()
+                print('*****************************************************')
+                break
+
+main()
+        
+# import random
 
 
 # def axethrow():
@@ -15,41 +62,31 @@ import random
 #     elif target == 3:
 #         axe_total - 1
 #         print('Wow you suck!')
+
+# def end_game():
+#     print("Congrats you have completed this challenge! Now time for a riddle...")
+#     print()
         
 
 
-
-
-def main():
-    welcome = input('Welcome to the Axe throwing game! Do you have what it takes? Say yes or no...  ')
-    axe_total = 4
-    target_hit = 0
-    game_won = False
-    if welcome.lower() == 'yes':
-        game_on = True
-    elif welcome.lower() == 'no':
-        main()
-    while game_on == True:
-        print('Three targets appear!')
-        target = int(input('Throw your axe at Target 1? Target 2? or Target 3?'))
-        print("Total Axes Remainig!: ")
-        print(axe_total)
-        print('Total Targets Hit!: ')
-        print(target_hit)
-        if target == 1:
-            print('You missed!')
-            axe_total -= 1
-        elif target == 2:
-            print('Target hit!')
-            axe_total -= 1
-            target_hit += 1
-        elif target == 3:
-            axe_total -= 1
-            print('Wow you suck!')                
-    if target_hit == 3:
-        print('You won the game!')
-        
-
-
-
-main()
+        # if target == 1:
+        #     print('You missed!')
+        #     axe_total -= 1
+        #     print("Total Axes Remaining!: ")
+        #     print(axe_total)
+        #     print('Total Targets Hit!: ')
+        #     print(target_hit)
+        # elif target == 2:
+        #     print('Target hit!')
+        #     axe_total -= 1
+        #     target_hit += 1
+        #     print(axe_total)
+        #     print('Total Targets Hit!: ')
+        #     print(target_hit)
+        # elif target == 3:
+        #     axe_total -= 1
+        #     print('Wow you suck!')    
+        #     print("Total Axes Remaining!: ")
+        #     print(axe_total)
+        #     print('Total Targets Hit!: ')
+        #     print(target_hit)
