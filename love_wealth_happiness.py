@@ -1,20 +1,27 @@
+from helper import enter
+import random
+
 def fortune_topic():
+    topics = ["love", "money", "happiness"]
     love_wealth_happiness = ""
-    while love_wealth_happiness != 'love' and love_wealth_happiness != 'money' and love_wealth_happiness != 'happiness':
-        love_wealth_happiness = input('"There is a lot to tell you but we don\'t have much time. Would you like to learn about love, money, or happiness?"\n').lower()
-        if love_wealth_happiness == 'love':
-            answer = 'Love'
-            print(f"{answer} it is. Please tell me a number (1-5)")
-            break
-        elif love_wealth_happiness == 'money':
-            answer = 'Money'
-            print(f"{answer} it is. Please tell me a number (1-5)")
-            break
-        elif love_wealth_happiness == 'happiness':
-            answer = 'Happiness'
-            print(f"{answer} it is. Please tell me a number (1-5)")
-            break
+    while love_wealth_happiness not in topics:
+        love_wealth_happiness = enter('"There is a lot to tell you but we don\'t have much time. Would you like to learn about love, money, or happiness?"\n').lower()
+        if love_wealth_happiness in topics:
+            enter(f"{love_wealth_happiness.title()} it is.")
+            enter(random_quote(love_wealth_happiness))
         else:
-            print("Please spell correctly!")
+            enter("Please spell correctly!")
     
+## Random quote generator 
+def random_quote(flag):
+    my_dict = {
+    "money" : ["1", "2", "3", "4", "5"],
+    "love" : ["1", "2", "3", "4", "5"],
+    "happiness" : ["1", "2", "3", "4", "5"]
+    }
+    return random.choice(my_dict[flag])
+    
+
 fortune_topic()
+
+
