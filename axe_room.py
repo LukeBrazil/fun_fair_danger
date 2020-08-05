@@ -25,8 +25,6 @@ def main():
     axe_total = 4
     target_hit = 0
     game_won = False
-    if game_won == True:
-        print('It is time to enter the third room congratulations!!! Do know what dangers lie ahead?')
     if welcome.lower() == 'yes':
         game_on = True
     elif welcome.lower() == 'no':
@@ -47,7 +45,7 @@ def main():
             target_hit += 1
         elif target == 3:
             axe_total -= 1
-            print('Wow you suck!')
+            print('Wow you suck!')                
     if target_hit == 3:
         print('You won the game!')
         
