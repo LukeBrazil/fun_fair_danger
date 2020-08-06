@@ -1,15 +1,25 @@
 
-def main():
-    welcome = input('Welcome to the Axe throwing game! Do you have what it takes? Say yes or no...  ')
+
+def axe_room():
+    print()
+    print('*******************************')
+    print()
+    print('Welcome to the Axe throwing game! Do you have what it takes?')
+    print()
+    print()
+    welcome = input('Please Enter the Key from Room 1: ')
+    print()
+    print()
     axe_total = 7
     target_hit = 0
-    if welcome.lower() == 'yes':
+    if welcome.lower() == 'key':
         game_on = True
-    elif welcome.lower() != 'yes':
-        main()
+    elif welcome.lower() != 'key':
+        axe_room()
         game_on == True
     while game_on == True and target_hit < 5:
         print('Three targets appear!')
+        print()
         target = input('Throw axe at target? Enter yes or no. If you enter anything differntely the program will probably break. So dont. :D   ')
 
         if target.lower() == 'yes' or 'no':
@@ -43,9 +53,10 @@ def main():
                 print()
                 print('*****************************************************')
                 break
+                
 
-main()
-        
+axe_room()
+
 # import random
 
 
