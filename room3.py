@@ -1,6 +1,6 @@
 # ROOM3 ROTTEN TOMATOES: Go ahead , pick your poison, a bucket full of rotten tomatoes at your disposal.
 import random
-def TheTomatoCave():
+def main:
 
     rotten_tomatoes = 3 # get 3 chances for a hit (accumalator)
     game_running = True
@@ -105,6 +105,6 @@ def TheTomatoCave():
         Only to remember the golden tomato key-ring-er!
         """)
 
-TheTomatoCave()
+main()
 
 
