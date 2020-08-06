@@ -9,6 +9,9 @@ If we dont we will fail the class.
 ## Tech/framework used
 Python 3
 
+## Screenshots
+https://user-images.githubusercontent.com/57376030/89552737-2b6eb100-d7d2-11ea-8cac-fffc9d3ad821.png
+
 ## Installation
 -- Clone repo from https://github.com/LukeBrazil/fun_fair_danger
 -- Run main.py in your terminal
