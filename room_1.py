@@ -1,6 +1,7 @@
 from helper import enter
 from fortune_telling import fortune_topic
-
+from exit_key import exit_key
+from exit_key import leet_speak
 
 
 ## Welcome lines
@@ -31,7 +32,14 @@ def run_fortune_teller():
         name = enter('"Tell me your name my dear"\n')
         birth_year = int(enter('"And what is your birth year?"\n'))
         fortune_topic()
+        enter(''' "You can now exit my room!"
+            But wait... as she heads toward the door she takes a stumble on the sash of her
+            robe. It's a hard fall. When she arises she is completely incomprehensible. 
+        ''')
+        exit_key()
+        game_on = False
 
 
 
 run_fortune_teller()
+
