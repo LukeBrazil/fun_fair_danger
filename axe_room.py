@@ -10,7 +10,7 @@ def axe_room():
 **********************
 *                    *
 *                    *
-*         MISS       *
+*        MISS        *
 *                    *
 *                    *
 *                    *
@@ -85,9 +85,10 @@ def axe_room():
             print()
             print('***************************')
             print()
-            print('Total targets hit ')
             print()
             print(d)
+            print()
+            print('Total Targets Hit')
             print()
             print(target_hit)
             print()
