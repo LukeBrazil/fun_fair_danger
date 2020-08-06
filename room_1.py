@@ -1,5 +1,7 @@
 from helper import enter
 
+
+
 ## Welcome lines
 welcome = '''Welcome to the FunFair! 
 You are on an adventure in a world of magic and danger. Keep your wits about you.
@@ -27,11 +29,7 @@ def run_fortune_teller():
     while game_on == True:
         name = enter('"Tell me your name my dear"\n')
         birth_year = int(enter('"And what is your birth year?"\n'))
-        # love_wealth_happiness = input('"Very interesting. There is a lot to tell you but we don\'t have much time. Would you like to learn about love, money, or happiness?"\n')
-        # if love_wealth_happiness == 'love':
-        #     answer
-            
-        # elif love_wealth_happiness == ''
+    
 
 
 
