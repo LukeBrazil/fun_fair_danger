@@ -22,6 +22,6 @@ def random_quote(flag):
     return random.choice(my_dict[flag])
    
 
-fortune_topic()
+# fortune_topic()
 
 
