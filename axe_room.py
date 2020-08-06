@@ -6,12 +6,53 @@ def axe_room():
     axe_total = 10
     target_hit = 0
     game_on = True
+    d = """
+**********************
+*                    *
+*                    *
+*         MISS       *
+*                    *
+*                    *
+*                    *
+*        OOOOO       *
+*                    *
+*                    *
+*                    *
+*                    *
+*                    *
+**********************
+"""
+    s = """
+**********************
+*                    *
+*                    *
+*         HIT        *
+*                    *
+*                    *
+*                    *
+*         XXX        *
+*                    *
+*                    *
+*                    *
+*                    *
+*                    *
+**********************
+"""
+
+
     if welcome == 'key':
         pass
 
     while game_on == True and target_hit < 3:
-        print('Three targets appear!')
         print()
+        print('***************************')
+        print()
+        print('   Three targets appear!')
+        print()
+        print('***************************')
+        print()
+        print()
+
         target = random.randint(1, 6)
         message = input('Throw your axe at the target?')
 
@@ -19,8 +60,10 @@ def axe_room():
             target_hit += 1
             axe_total -= 1
             print()
+            print()
             print('You hit the target!')
             print()
+            print(s)
             print('***************************')
             print()
             print('Total targets hit ')
@@ -43,6 +86,8 @@ def axe_room():
             print('***************************')
             print()
             print('Total targets hit ')
+            print()
+            print(d)
             print()
             print(target_hit)
             print()
