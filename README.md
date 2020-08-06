@@ -20,5 +20,5 @@ https://user-images.githubusercontent.com/57376030/89552737-2b6eb100-d7d2-11ea-8
 Overlords:
 -- Dylan Cooper
 -- Annemarie Thomas
--- Shiah Emigh-Doyle
+-- Shaiah Emigh-Doyle
 -- Luke Brazil
