@@ -6,7 +6,6 @@ def Tomato():
     game_running = True
     play_again = "y"
     ogre_conquered = False
-    #room_3__key = goldentomato
 
     sarcasm_list =[
         "Well, aren't we just a ray of frigging sunshine.",
@@ -31,13 +30,16 @@ def Tomato():
         Well, what are you waiting for?
 
         """)
-
-    question_one = input("Approach the Ogre? yes (y) or no (n) ")
+#if expression == conditional always true
+ #Statement
+#else 
+ #Statement
+    question_one = input("Approach the Ogre? yes (y) or no (n)")
     if question_one == "y": 
         print("OK, you asked for it!")
-    elif question_one == "n": 
-
+    elif question_one == "n":
         print("Ogre approaching you! No limits set!")
+    else:
         print("""
             Sorry! Only a small challenge!
         
@@ -49,9 +51,6 @@ def Tomato():
 
             Grab a bucket Bimbo!
         """)
-
-    else: 
-        print()
 
     while game_running and play_again == "y":
         
@@ -101,10 +100,16 @@ def Tomato():
         With a healthy smile, muscles, bone and liver,
         You're - Off to the next maize-ing thither,
         Hopefully, not craving any liquor!
-        Escaped the Dragons and muscle Engraving!
-        Only to remember the sloth_tomato key-ring-er!
-        """)
 
-Tomato()
+        Escaped the Dragons and muscle Engraving!
+        Only to remember the slothtomato key-ring-er!
+
+        You've been gifted a golden tomato, you will need this in the future!
+        \nYour passcode to enter the next room is: slothtomato
+        """)
+room3entrance = input("What is the key from room 2?")
+room3_passcode = room3entrance
+if room3_passcode == "GoldenAxe":
+    Tomato()
 
 
