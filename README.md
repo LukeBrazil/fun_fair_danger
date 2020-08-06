@@ -1,6 +1,6 @@
 ## Fun Fair Danger Carnival / Quest Python Terminal Game
 Step in to the equisite carnival called "Fun Fair Danger." Enter at your own risk. A python terminal game meant to curb bordem for approximately 4 minutes.
-## Decription
+## Description
 Fun Fair Danger is a text based terminal game meant to make you question what you are doing with your life. We have a 100% success rate. 
 
 ## Motivation
