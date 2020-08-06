@@ -37,6 +37,7 @@ def run_fortune_teller():
             robe. It's a hard fall. When she arises she is completely incomprehensible. 
         ''')
         exit_key()
+        game_on = False
 
 
 
