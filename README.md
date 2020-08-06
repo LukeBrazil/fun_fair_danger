@@ -6,9 +6,6 @@ Fun Fair Danger is a text based terminal game meant to make you question what yo
 ## Motivation
 If we dont we will fail the class.
 
-## Screenshots
-Include logo/demo screenshot etc.
-
 ## Tech/framework used
 Python 3
 
