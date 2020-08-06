@@ -10,8 +10,8 @@ Psviq 1twyq hspsv wmx eqix, gsrwigxixyv ehmtmwgmrk ipmx. Tippirxiwuyi ujj ijjmgm
 Ryppeq 8y shms iy hmeq kvezmhe xiqtyw ijjmgmxyv iy pmfivs. Hsrig 9ygxyw pis nywxs, zmxei qexxmw hmeq tswyivi jegmpmwmw. Eirier ipmuyix gsrkyi qsppmw. Gyvefmxyv 4vmrkmppe wih tyvyw ix zirirexmw. Hsrig 0sviq ivsw, svrevi rsr megypmw ikix, jmrmfyw uymw uyeq. Hsrig hymw wekmxxmw ib. Ryrg 9ih uyeq zmxei jipmw ipimjirh svrevi fmfirhyq wih mtwyq. Req 7ym erxi, ypxvmgiw ikix xippyw zip, zevmyw ypxvmgmiw ryrg. Qeigirew 2pegivex, qeyvmw e zyptyxexi xmrgmhyrx, zipmx pigxyw zirirexmw hspsv, zip pygxyw evgy rmfl zip wiq. Ziwxmfypyq 8g vmwyw gsqqshs, psfsvxmw evgy ikix, eggyqwer pmkype. Epmuyeq 4y vyxvyq hmeq.
     ''')
     code = input("Enter code here: ")
-    if code == "1u665 co3s 289 i4 0h9 7284":
-        print("Your passphrase is: {}".format(leet_speak("1u665 co3s 289 i4 0h9 7284")))
+    if code == "1u665co3s289i40h97284":
+        print("Your passphrase is: {}".format(leet_speak("1u665co3s289i40h972841")))
 
 leet_dict = {
     '4' : 'N',

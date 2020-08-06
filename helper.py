@@ -1,5 +1,5 @@
 def enter(words):
     print(words)
     ui = input("")
-    print('\n' * 30)
+    print('\n' * 15)
     return ui
