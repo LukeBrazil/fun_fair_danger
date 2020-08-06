@@ -1,4 +1,5 @@
 from helper import enter
+from fortune_telling import fortune_topic
 
 
 
@@ -29,7 +30,7 @@ def run_fortune_teller():
     while game_on == True:
         name = enter('"Tell me your name my dear"\n')
         birth_year = int(enter('"And what is your birth year?"\n'))
-    
+        fortune_topic()
 
 
 
