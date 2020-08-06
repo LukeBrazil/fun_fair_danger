@@ -11,7 +11,7 @@ Ryppeq 8y shms iy hmeq kvezmhe xiqtyw ijjmgmxyv iy pmfivs. Hsrig 9ygxyw pis nywx
     ''')
     code = input("Enter code here: ")
     if code == "1u665co3s289i40h97284":
-        print("Your passphrase is: {}".format(leet_speak("1u665co3s289i40h972841")))
+        print("Your passphrase is: {}".format(leet_speak(code)))
 
 leet_dict = {
     '4' : 'N',
@@ -30,6 +30,8 @@ leet_dict = {
 def leet_speak(my_string):
     leet_string = ""
     for i in my_string:
+        if i == " ":
+            continue
         if i.upper() in leet_dict:
             leet_string += (leet_dict[i.upper()])
         else:
@@ -39,5 +41,5 @@ def leet_speak(my_string):
 
 
 
-# exit_key()
+exit_key()
 
