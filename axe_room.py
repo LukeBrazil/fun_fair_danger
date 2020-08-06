@@ -6,6 +6,8 @@ def axe_room():
     axe_total = 10
     target_hit = 0
     game_on = True
+    if welcome == 'key':
+        pass
 
     while game_on == True and target_hit < 3:
         print('Three targets appear!')
@@ -61,3 +63,5 @@ def axe_room():
         print('Your code for Room 2 is: GoldenAxe')
         print()
         print('*****************************************************')
+
+axe_room()
