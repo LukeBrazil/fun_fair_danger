@@ -1,11 +1,11 @@
 # ROOM3 ROTTEN TOMATOES: Go ahead , pick your poison, a bucket full of rotten tomatoes at your disposal.
 import random
-def main:
+def Tomato():
 
     rotten_tomatoes = 3 # get 3 chances for a hit (accumalator)
     game_running = True
     play_again = "y"
-    troll_conquered = False
+    ogre_conquered = False
     #room_3__key = goldentomato
 
     sarcasm_list =[
@@ -18,26 +18,26 @@ def main:
         "Aw, did I step on your poor little bitty ego?"
     ]
     print("""
-        Welcome to Room 3: Angry Elf and His TomatoCave.
+        Welcome to Room 3: 
 
-        Yes, I know, a troll blocking the doorway.
+        Yes, I know, an Ogre blocking the doorway.
 
         He won't move an inch, as if the Queen of England's Beefeaters.
 
         Try him, sneeze, laugh, have a pretend heart attacked!
 
-        Only advise, don't touch him, as here he is know as Cranky!
+        Please be advised, don't touch him, as Ogres can be very Cranky!
 
-        Well, what are you waiting for, go on in!
+        Well, what are you waiting for?
 
         """)
 
-    question_one = input("Approach the troll? yes (y) or no (n) ")
+    question_one = input("Approach the Ogre? yes (y) or no (n) ")
     if question_one == "y": 
         print("OK, you asked for it!")
     elif question_one == "n": 
 
-        print("Troll approaching you! No limits set!")
+        print("Ogre approaching you! No limits set!")
         print("""
             Sorry! Only a small challenge!
         
@@ -45,7 +45,7 @@ def main:
 
             No choice actually!
 
-            Troll still approaching!
+            Ogre still approaching!
 
             Grab a bucket Bimbo!
         """)
@@ -59,10 +59,10 @@ def main:
         hit = random.randint(0,100)
     
         if rotten_tomatoes == 3:
-            input("Welcome to Elf TomatoCave! Hit enter, go for it, a rotten tomato strike!")
+            input("Urgh! Hit enter, go for it, a rotten tomato strike!")
             if hit == 2:
-                #print("BINGO!")
-                elf_conquered = True
+                print("BINGO!")
+                ogre_conquered = True
                 break #game over
             else:
                 print(sarcasm_list[value])
@@ -71,8 +71,8 @@ def main:
         if rotten_tomatoes == 2:
             input("Get on with it! Hit enter! Any strickes this time?")
             if hit == 1:
-                #print("DITTO!")
-                elf_conquered = True
+                print("DITTO!")
+                ogre_conquered = True
                 break #game over
             else:
                 print(sarcasm_list[value])
@@ -81,8 +81,8 @@ def main:
         if rotten_tomatoes == 1:
             input("GO ON..., and hit enter again!")
             if hit == 0:
-                #print("DAMMIT, was the last one?")
-                elf_conquered = True
+                print("DAMMIT, was the last one?")
+                ogre_conquered = True
                 break #game over
             else:
                 print(sarcasm_list[value])
@@ -102,9 +102,9 @@ def main:
         You're - Off to the next maize-ing thither,
         Hopefully, not craving any liquor!
         Escaped the Dragons and muscle Engraving!
-        Only to remember the golden tomato key-ring-er!
+        Only to remember the sloth_tomato key-ring-er!
         """)
 
-main()
+Tomato()
 
 
