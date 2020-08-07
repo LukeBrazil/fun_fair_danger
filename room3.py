@@ -92,8 +92,8 @@ def Tomato():
         Only to remember the goldentomato key-winger!
 
         You've been gifted a golden tomato, you will need this in the future!""")
-    print("Your passcode to enter the next room is: " + Fore.YELLOW + "goldentomato")
-room3entrance = input("\nEnter the key from room 2: ")
+    print("Your passcode to enter the next room is: " + Fore.YELLOW + "goldentomato" + Fore.WHITE)
+room3entrance = input("\nEnter key from Axe Room: ")
 room3_passcode = room3entrance
 if room3_passcode == "goldenaxe".lower():
     Tomato()

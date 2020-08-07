@@ -2,7 +2,7 @@ import random
 from pip._vendor.colorama import Fore, Back, Style
 def axe_room():
     print('Welcome to the Axe Room Challenge. Do you have what it takes?')
-    welcome = input('Please enter key from room 1: ')
+    welcome = input('Please enter key from Wizard Room: ')
     axe_total = 10
     target_hit = 0
     game_on = True
