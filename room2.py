@@ -1,11 +1,14 @@
 import random 
-
+from pip._vendor.colorama import Fore, Back, Style
 def axe_room():
     print('Welcome to the Axe Room Challenge. Do you have what it takes?')
     welcome = input('Please enter key from room 1: ')
     axe_total = 10
     target_hit = 0
     game_on = True
+    t = """
+    (╯ ͠° ͟ʖ ͡°)╯┻━┻
+    """
     d = """
 **********************
 *                    *
@@ -16,7 +19,7 @@ def axe_room():
 *                    *
 *        OOOOO       *
 *                    *
-*                    *
+*      ( ˘︹˘ )      *
 *                    *
 *                    *
 *                    *
@@ -33,14 +36,14 @@ def axe_room():
 *         XXX        *
 *                    *
 *                    *
-*                    *
+*     （っ＾▿＾）    *
 *                    *
 *                    *
 **********************
 """
 
 
-    if welcome == 'key':
+    if welcome == 'goldenwizard':
         pass
 
     while game_on == True and target_hit < 3:
@@ -54,7 +57,7 @@ def axe_room():
         print()
 
         target = random.randint(1, 6)
-        message = input('Throw your axe at the target?')
+        message = input("Throw your axe at the target? Enter 'yes' or 'no'. If you enter something different it will probably break. So don't. :D ")
 
         if target < 5 and message == 'yes':
             target_hit += 1
@@ -78,7 +81,7 @@ def axe_room():
             print()
             print()
         
-        elif target > 4:
+        elif target > 4 and message == 'yes':
             axe_total -= 1
             print()
             print('You Missed the target!')
@@ -99,6 +102,14 @@ def axe_room():
             print('***************************')
             print()
             print()
+        
+        elif message == 'no':
+            print()
+            print('What are you scared?')
+            print()
+            print(t)
+            print()
+            print()
     else:
         print('*****************************************************')
         print()
@@ -106,8 +117,10 @@ def axe_room():
         print()
         print('Here is your Golden Axe! Use this Golden Axe to continue through the maze!')
         print()
-        print('Your code for Room 2 is: GoldenAxe')
+        print('Your code for Room 2 is: ' + Fore.YELLOW + 'goldenaxe')
         print()
-        print('*****************************************************')
+        print(Fore.WHITE + '*****************************************************')
 
 axe_room()
+
+
