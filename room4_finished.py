@@ -1,19 +1,19 @@
 def room4():
     print("""\n\n\n\nAfter a long and daunting journey through the Fun Fair Maze, you have entered the fourth and final room! \nYou notice this is a room of elegance.\nThe white marble tiled floors are accented with gold and the walls are covered with pristine art from around the world.\nIn the middle of the room, hangs a large diamond chandelier.\nAfter looking around for a few moments, you estimate that this room is about 20x20 feet.\n\nAll of a sudden, a large troll dressed in robes of royalty forms from the floor directly beneath the chandelier.\nThe troll is holding some sort of glowing angelic orb.\n\nThe troll exclaims; "I am Gorgish, King of the Fun Fair Maze!\nIn order to exit the maze, you must give me the three items you've acquired from the former rooms.\nThen you must answer my riddle that only a true Fun Fair Maze Champion would know.\n\nIf you guess correctly, my orb will wisk you away to safety.\nBeware, you will only get three guesses to answer my riddle correctly.\nIf you fail, you will be crushed into oblivion.""")
     
-    room1_unlocked = input("""\n\n\n\n Gorgish asks; "What is the passcode from room 1?" """)
+    room1_unlocked = input("""\n\n\n\n Gorgish asks; "What is the passcode from Wizard Room?" """)
     
     # The troll is asking if you for the correct code from room 1
     room1answer = room1_unlocked
     if room1answer in ["GOLDENWIZARD", "goldenwizard", "golden wizard", "GOLDEN WIZARD", "Golden Wizard"]:
         print("\n\nExcellent. Your passcode is correct.")
         #The troll is asking if you brought the correct item from room2
-        room2_unlocked = input("""\n\nGorgish asks; "What did you bring me from room 2?" """)
+        room2_unlocked = input("""\n\nGorgish asks; "What did you bring me from Axe Room?" """)
         room2answer = room2_unlocked
         if room2answer in ["Golden axe", "golden axe", "Golden Axe", "GOLDEN AXE", "GoldenAxe", 'goldenaxe']:
             print("\n\n\nExcellent. You hand it over to Gorgish. Trolls are so greedy.")
             #The troll is asking if you brought the correct item from room3
-            room3_unlocked = input("""\n\nGorgish asks; "What did you bring me from room 3?" """)
+            room3_unlocked = input("""\n\nGorgish asks; "What did you bring me from Tomato Room?" """)
             room3answer = room3_unlocked
             if room3answer in ["Golden Tomato", "golden tomato", "GOLDEN TOMATO", "GoldenTomato", "goldentomato", "GOLDENTOMATO", "goldentomato"]:
                 print("\n\n\nEXCELLENT! You have moved onto the final challange: The Fun Fair Maze Riddle.")
