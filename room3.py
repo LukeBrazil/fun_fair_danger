@@ -1,5 +1,6 @@
 # ROOM3 ROTTEN TOMATOES: Go ahead , pick your poison, a bucket full of rotten tomatoes at your disposal.
 import random
+from pip._vendor.colorama import Fore, Back, Style
 def Tomato():
     rotten_tomatoes = 3 # get 3 chances for a hit (accumalator)
     game_running = True
@@ -23,7 +24,7 @@ def Tomato():
 
         """)
 
-    question_one = input("\nApproach the Ogre? yes (y) or no (n)")
+    question_one = input("\nApproach the Ogre? yes (y) or no (n) ")
     if question_one == "y": 
         print("\nOK, you asked for it!")
     elif question_one == "n":
@@ -50,7 +51,7 @@ def Tomato():
                 break #game over
             else:
                 print(sarcasm_list[value])
-                play_again = input("\n\nWould you like another chance? yes (y) or no (n)")
+                play_again = input("\n\nWould you like another chance? yes (y) or no (n) ")
    
         if rotten_tomatoes == 1:
             input("\nGet on with it! Hit enter! Any strikes this time?")
@@ -60,7 +61,7 @@ def Tomato():
                 break #game over
             else:
                 print(sarcasm_list[value])
-                play_again = input("\n\nWould you like another chance? yes (y) or no (n)")
+                play_again = input("\n\nWould you like another chance? yes (y) or no (n) ")
 
         if rotten_tomatoes == 1:
             input("\nGO ON..., and hit enter again!")
@@ -88,12 +89,11 @@ def Tomato():
         Hopefully, not craving any liquor!
 
         Escaped the Dragons and muscle engraving!
-        Only to remember the slothtomato key-winger!
+        Only to remember the goldentomato key-winger!
 
-        You've been gifted a golden tomato, you will need this in the future!
-        \nYour passcode to enter the next room is: goldentomato
-        """)
-room3entrance = input("\nWhat is the key from room 2?")
+        You've been gifted a golden tomato, you will need this in the future!""")
+    print("Your passcode to enter the next room is: " + Fore.YELLOW + "goldentomato")
+room3entrance = input("\nEnter the key from room 2: ")
 room3_passcode = room3entrance
 if room3_passcode == "goldenaxe".lower():
     Tomato()
