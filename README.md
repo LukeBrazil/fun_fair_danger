@@ -17,11 +17,12 @@ https://user-images.githubusercontent.com/57376030/89552737-2b6eb100-d7d2-11ea-8
 * Run main.py in your terminal
 
 ## Stretch goals for improvement
-- [ ] Refigure passphrases to dynamicly change for each game
+- [ ] Refigure passphrases to dynamically change for each game
 - [x] Play again feature
 - [x] Add color to passphrases
-- [ ] 
-
+- [ ] Update functions to be more concise
+- [ ] Create avatar classes to choose from at game start 
+- [ ] Add color to Welcome statement
 
 ## Credits
 ### Overlords:
