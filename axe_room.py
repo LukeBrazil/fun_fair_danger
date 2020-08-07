@@ -54,7 +54,7 @@ def axe_room():
         print()
 
         target = random.randint(1, 6)
-        message = input('Throw your axe at the target?')
+        message = input("Throw your axe at the target? Enter 'yes' or 'no'. If you enter something different it will probably break. So don't. :D ")
 
         if target < 5 and message == 'yes':
             target_hit += 1
