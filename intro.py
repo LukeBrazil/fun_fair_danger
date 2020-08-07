@@ -18,6 +18,8 @@ c= """
                         █▀█ █▀█ █▀▀ █▀ █▀   █▀▀ █▄░█ ▀█▀ █▀▀ █▀█
                         █▀▀ █▀▄ ██▄ ▄█ ▄█   ██▄ █░▀█ ░█░ ██▄ █▀▄
 """
+def print_intro():
+    print(x)
+    print(c)
 
-print(x)
-print(c)
+print_intro()
