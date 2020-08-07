@@ -8,6 +8,7 @@ from room_1 import run_fortune_teller
 from room2 import axe_room
 from room3 import Tomato
 from room4_finished import room4
+from ending import lol
 
 def play():
     print_intro()
@@ -23,5 +24,5 @@ while game_on == True:
     play()
 if play_again == 'yes':
     play()
-
-
+else:
+    lol()
