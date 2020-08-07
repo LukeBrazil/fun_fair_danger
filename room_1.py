@@ -20,6 +20,8 @@ Wizard room start
 def run_fortune_teller():
     enter(welcome)
     enter(wizard_room)
+    # print(welcome)
+    # print(wizard_room)
     game_on = False
     ask_question = 'N'
     while ask_question != 'Y' and ask_question != 'y':
@@ -42,5 +44,5 @@ def run_fortune_teller():
 
 
 
-#run_fortune_teller()
+run_fortune_teller()
 

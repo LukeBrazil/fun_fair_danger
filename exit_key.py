@@ -77,5 +77,5 @@ def no_spaces(my_string):
     return empty_string
 
 
-exit_key()
+# exit_key()
 
