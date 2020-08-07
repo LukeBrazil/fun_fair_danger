@@ -16,6 +16,13 @@ https://user-images.githubusercontent.com/57376030/89552737-2b6eb100-d7d2-11ea-8
 * Clone repo from https://github.com/LukeBrazil/fun_fair_danger
 * Run main.py in your terminal
 
+## Stretch goals for improvement
+- [ ] Refigure passphrases to dynamicly change for each game
+- [x] Play again feature
+- [x] Add color to passphrases
+- [ ] 
+
+
 ## Credits
 ### Overlords:
 * Dylan Cooper
