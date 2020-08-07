@@ -1,7 +1,7 @@
 from helper import enter
 from fortune_telling import fortune_topic
 from exit_key import exit_key
-from exit_key import leet_speak
+from pip._vendor.colorama import Fore, Back, Style
 
 
 ## Welcome lines
@@ -22,17 +22,18 @@ def run_fortune_teller():
     enter(wizard_room)
     game_on = False
     ask_question = 'N'
-    while ask_question != 'Y'.lower():
-        ask_question = enter('"May I ask you some questions? As a warning, you will not exit this room until you speak with me. (Y or N)"\n')
-    if ask_question != 'Y'.lower():
-        game_on = False
-    else:
-        game_on = True
+    while ask_question != 'Y' and ask_question != 'y':
+        ask_question = enter('''"May I ask you some questions? 
+        As a warning, you will not exit this room until you speak with me.\" (enter Y or N)''')
+        if ask_question != 'Y' and ask_question != 'y':
+            game_on = False
+        else:
+            game_on = True
     while game_on == True:
         name = enter('"Tell me your name my dear"\n')
-        birth_year = int(enter('"And what is your birth year?"\n'))
+        birth_year = enter('"And what is your birth year?"\n')
         fortune_topic()
-        enter(''' "You can now exit my room!"
+        enter(''' "You can now exit my room!"\n
             But wait... as she heads toward the door she takes a stumble on the sash of her
             robe. It's a hard fall. When she arises she is completely incomprehensible. 
         ''')

@@ -13,12 +13,12 @@ Python 3
 https://user-images.githubusercontent.com/57376030/89552737-2b6eb100-d7d2-11ea-8cac-fffc9d3ad821.png
 
 ## Installation
--- Clone repo from https://github.com/LukeBrazil/fun_fair_danger
--- Run main.py in your terminal
+* Clone repo from https://github.com/LukeBrazil/fun_fair_danger
+* Run main.py in your terminal
 
 ## Credits
-Overlords:
--- Dylan Cooper
--- Annemarie Thomas
--- Shiah Emigh-Doyle
--- Luke Brazil
+### Overlords:
+* Dylan Cooper
+* Annemarie Thomas
+* Shaiah Emigh-Doyle
+* Luke Brazil
