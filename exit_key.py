@@ -32,6 +32,7 @@ def exit_key():
             print('''    Your passphrase is: {}
             \n'''.format(leet_speak(code)))
             enter("The door opens!")
+            break
         else:
             acc += 1
             countdown -= 1
