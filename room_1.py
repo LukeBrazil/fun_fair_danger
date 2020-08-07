@@ -42,5 +42,5 @@ def run_fortune_teller():
 
 
 
-run_fortune_teller()
+#run_fortune_teller()
 
