@@ -16,7 +16,7 @@ def axe_room():
 *                    *
 *        OOOOO       *
 *                    *
-*                    *
+*       ( ˘︹˘ )     *
 *                    *
 *                    *
 *                    *
@@ -33,7 +33,7 @@ def axe_room():
 *         XXX        *
 *                    *
 *                    *
-*                    *
+*     （っ＾▿＾）    *
 *                    *
 *                    *
 **********************
@@ -41,6 +41,7 @@ def axe_room():
 
 
     if welcome == 'goldenwizard':
+        print(x)
         pass
 
     while game_on == True and target_hit < 3:
@@ -78,7 +79,7 @@ def axe_room():
             print()
             print()
         
-        elif target > 4:
+        elif target > 4 and message == 'yes':
             axe_total -= 1
             print()
             print('You Missed the target!')
@@ -99,6 +100,11 @@ def axe_room():
             print('***************************')
             print()
             print()
+        
+        elif message == 'no':
+            print()
+            print('What are you scared?')
+            print()
     else:
         print('*****************************************************')
         print()
@@ -111,3 +117,5 @@ def axe_room():
         print('*****************************************************')
 
 axe_room()
+
+
