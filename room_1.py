@@ -1,7 +1,7 @@
 from helper import enter
 from fortune_telling import fortune_topic
 from exit_key import exit_key
-
+from pip._vendor.colorama import Fore, Back, Style
 
 
 ## Welcome lines
