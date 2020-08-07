@@ -95,7 +95,7 @@ def Tomato():
         """)
 room3entrance = input("\nWhat is the key from room 2?")
 room3_passcode = room3entrance
-if room3_passcode == "GoldenAxe":
+if room3_passcode == "GoldenAxe".lower():
     Tomato()
 
 
