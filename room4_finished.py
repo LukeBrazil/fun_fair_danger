@@ -5,17 +5,17 @@ def room4():
     
     # The troll is asking if you for the correct code from room 1
     room1answer = room1_unlocked
-    if room1answer in ["Fuzzy cows are in the barn", "fuzzy cows are in the barn", "Fuzzy Cows Are In The Barn", "fuzzycowsareinthebarn"]:
+    if room1answer in ["GOLDENWIZARD", "goldenwizard", "golden wizard", "GOLDEN WIZARD", "Golden Wizard"]:
         print("\n\nExcellent. Your passcode is correct.")
         #The troll is asking if you brought the correct item from room2
         room2_unlocked = input("""\n\nGorgish asks; "What did you bring me from room 2?" """)
         room2answer = room2_unlocked
-        if room2answer in ["Golden axe", "golden axe", "Golden Axe", "GOLDEN AXE", "GoldenAxe"]:
+        if room2answer in ["Golden axe", "golden axe", "Golden Axe", "GOLDEN AXE", "GoldenAxe", 'goldenaxe']:
             print("\n\n\nExcellent. You hand it over to Gorgish. Trolls are so greedy.")
             #The troll is asking if you brought the correct item from room3
             room3_unlocked = input("""\n\nGorgish asks; "What did you bring me from room 3?" """)
             room3answer = room3_unlocked
-            if room3answer in ["Golden Tomato", "golden tomato", "GOLDEN TOMATO"]:
+            if room3answer in ["Golden Tomato", "golden tomato", "GOLDEN TOMATO", "GoldenTomato", "goldentomato", "GOLDENTOMATO", "goldentomato"]:
                 print("\n\n\nEXCELLENT! You have moved onto the final challange: The Fun Fair Maze Riddle.")
                 #the troll is asking the final riddle
                 final_riddle_answer = input("""\n\nGorgish says; "Such amazing loot you have brought to me! Here is your Final Riddle:\n"I have numerous teeth\nAnd I'm kept on a chain\nI'm the singer's delight\nAnd the burglar's disdain... \nWhat is your answer?" """)
@@ -55,5 +55,5 @@ def room4():
 
 room_4_entrance = input("""A large door appears guarded by a gnome. The gnome says; "Welcome to the final room. Before you enter, can you tell me the passcode from room 3?: """)
 room4passcode = room_4_entrance
-if room4passcode == "slothtomato":
+if room4passcode in ["Golden Tomato", "golden tomato", "GOLDEN TOMATO", "GoldenTomato", "goldentomato", "GOLDENTOMATO", "goldentomato"]:
     room4()
