@@ -91,16 +91,9 @@ def Tomato():
         Escaped the Dragons and muscle engraving!
         Only to remember the goldentomato key-winger!
 
-<<<<<<< HEAD
         You've been gifted a golden tomato, you will need this in the future!""")
     print("Your passcode to enter the next room is: " + Fore.YELLOW + "goldentomato")
 room3entrance = input("\nEnter the key from room 2: ")
-=======
-        You've been gifted a golden tomato, you will need this in the future!
-        \nYour passcode to enter the next room is: goldentomato
-        """)
-room3entrance = input("\nWhat is the key from room 2?")
->>>>>>> b4429ef2cfc96c83c17a7024da40b76626579586
 room3_passcode = room3entrance
 if room3_passcode == "goldenaxe".lower():
     Tomato()
