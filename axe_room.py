@@ -40,7 +40,7 @@ def axe_room():
 """
 
 
-    if welcome == 'key':
+    if welcome == 'goldenwizard':
         pass
 
     while game_on == True and target_hit < 3:
@@ -106,7 +106,7 @@ def axe_room():
         print()
         print('Here is your Golden Axe! Use this Golden Axe to continue through the maze!')
         print()
-        print('Your code for Room 2 is: GoldenAxe')
+        print('Your code for Room 2 is: goldenaxe')
         print()
         print('*****************************************************')
 
