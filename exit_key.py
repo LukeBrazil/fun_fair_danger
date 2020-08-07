@@ -9,9 +9,9 @@ def exit_key():
     Go take a look at the marble tablet hanging on the door.''')  
     print(Back.BLACK + Fore.MAGENTA + '''
 
-"Psviq 1twyq hspsv wmx eqix, gsrwigxixyv ehmtmwgmrk ipmx. Tippirxiwuyi ujj ijjmgmxyv evgy. Wywtirhmwwi 6ymw yvre jvmrkmppe, ikiwxew svgm rig, psfsvxmw rmfl. Qeyvmw 6x qsppmw ivex. Gvew 5ip yvre zipmx. Ixmeq ceygmfyw pmfivs zip xyvtmw gyvwyw, ex yppeqgsvtiv rmwp gsrwigxixyv. Ryppeq omx eqix pygxyw wetmir. Req 3srzeppmw ivsw e typzmrev gsrwiuyex. Mr silmgype, pmkype tsvxxmxsv tlevixve jivqirxyq, jipmw hspsv jegmpmwmw eykyi, mh kvezmhe ryppe zipmx eg svgm. Wywtirhmwwi 2kix eygxsv zipmx.
+"Psviq 4twyq hspsv wmx eqix, gsrwigxixyv ehmtmwgmrk ipmx. Tippirxiwuyi 8jj ijjmgmxyv evgy. Wywtirhmwwi lymw yvre jvmrkmppe, ikiwxew svgm rig, psfsvxmw rmfl. Qeyvmw 0x qsppmw ivex. Gvew 9ip yvre zipmx. Ixmeq 6eygmfyw pmfivs zip xyvtmw gyvwyw, ex yppeqgsvtiv rmwp gsrwigxixyv. Ryppeq 3mx eqix pygxyw wetmir. Req 5srzeppmw ivsw e typzmrev gsrwiuyex. Mr zilmgype, pmkype tsvxxmxsv tlevixve jivqirxyq, jipmw hspsv jegmpmwmw eykyi, mh kvezmhe ryppe zipmx eg svgm. Wywtirhmwwi 2kix eygxsv zipmx.
 
-"Ryppeq 8y shms iy hmeq kvezmhe xiqtyw ijjmgmxyv iy pmfivs. Hsrig 9ygxyw pis nywxs, zmxei qexxmw hmeq tswyivi jegmpmwmw. Eirier ipmuyix gsrkyi qsppmw. Gyvefmxyv 4vmrkmppe wih tyvyw ix zirirexmw. Hsrig 0sviq ivsw, svrevi rsr megypmw ikix, jmrmfyw uymw uyeq. Hsrig hymw wekmxxmw ib. Ryrg 9ih uyeq zmxei jipmw ipimjirh svrevi fmfirhyq wih mtwyq. Req 7ym erxi, ypxvmgiw ikix xippyw zip, zevmyw ypxvmgmiw ryrg. Qeigirew 2pegivex, qeyvmw e zyptyxexi xmrgmhyrx, zipmx pigxyw zirirexmw hspsv, zip pygxyw evgy rmfl zip wiq. Ziwxmfypyq 8g vmwyw gsqqshs, psfsvxmw evgy ikix, eggyqwer pmkype. Epmuyeq 4y vyxvyq hmeq."''')
+"Ryppeq 7y shms iy hmeq kvezmhe xiqtyw ijjmgmxyv iy pmfivs. Hsrig 9ygxyw pis nywxs, zmxei qexxmw hmeq tswyivi jegmpmwmw. Eirier 0pmuyix gsrkyi qsppmw."''')
     print(Fore.WHITE + Back.BLACK)
     print(Fore.WHITE + Back.BLACK + '''\n    The exit code is embedded in this Wizard speak. Read my instructions carefully.\n
     --Take the FIRST CHARACTER of the SECOND WORD in EACH SENTENCE
@@ -27,7 +27,7 @@ def exit_key():
         code = input("    Enter code here: ")
         print()
         clean_code = no_spaces(code)
-        if clean_code == "1u665co3s289i40h97284":
+        if clean_code == "48l09635z270":
             print()
             print('''    Your passphrase is: {}
             \n'''.format(leet_speak(code)))
@@ -42,16 +42,16 @@ def exit_key():
 
 leet_dict = {
 
-    '4' : 'N',
+    '4' : 'G',
     '3' : 'W',
-    '6' : 'Z',
+    '6' : 'N',
     '1' : 'F',
-    '0' : 'T',
-    '5' : 'Y',
-    '7' : 'B',
+    '0' : 'D',
+    '5' : 'I',
+    '7' : 'R',
     '9' : 'E',
     '2' : 'A',
-    '8' : 'R'
+    '8' : 'O'
 }
 
 
@@ -65,7 +65,7 @@ def leet_speak(my_string):
                 continue
             else:
                 leet_string += (i)
-    return leet_string.capitalize()
+    return leet_string.lower()
 
 def no_spaces(my_string):
     empty_string = ""
