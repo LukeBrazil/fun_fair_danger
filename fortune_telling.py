@@ -5,7 +5,9 @@ def fortune_topic():
     topics = ["love", "money", "happiness"]
     love_wealth_happiness = ""
     while love_wealth_happiness not in topics:
-        love_wealth_happiness = enter('"There is a lot to tell you but we don\'t have much time. Would you like to learn about love, money, or happiness?"\n').lower()
+        love_wealth_happiness = enter('''"There much to tell but we don\'t have much time. 
+        Would you like to learn about love, money, or happiness?"\n
+        (Please type 'love,' 'money,' or 'happiness' to select)\n''').lower()
         if love_wealth_happiness in topics:
             enter(f"{love_wealth_happiness.title()} it is.")
             enter(random_quote(love_wealth_happiness))
