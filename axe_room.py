@@ -1,5 +1,5 @@
 import random 
-
+from pip._vendor.colorama import Fore, Back, Style
 def axe_room():
     print('Welcome to the Axe Room Challenge. Do you have what it takes?')
     welcome = input('Please enter key from room 1: ')
@@ -106,8 +106,8 @@ def axe_room():
         print()
         print('Here is your Golden Axe! Use this Golden Axe to continue through the maze!')
         print()
-        print('Your code for Room 2 is: GoldenAxe')
+        print('Your code for Room 2 is: ' + Fore.YELLOW + 'goldenaxe')
         print()
-        print('*****************************************************')
+        print(Fore.WHITE + '*****************************************************')
 
 axe_room()

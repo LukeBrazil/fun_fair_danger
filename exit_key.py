@@ -31,7 +31,7 @@ def exit_key():
             print()
             print('''    Your passphrase is: {}
             \n'''.format(leet_speak(code)))
-            enter("The door opens!")
+            enter(Fore.WHITE + "The door opens!")
             break
         else:
             acc += 1
@@ -65,7 +65,7 @@ def leet_speak(my_string):
                 continue
             else:
                 leet_string += (i)
-    return leet_string.lower()
+    return Fore.YELLOW + leet_string.lower()
 
 def no_spaces(my_string):
     empty_string = ""
@@ -77,5 +77,5 @@ def no_spaces(my_string):
     return empty_string
 
 
-# exit_key()
+exit_key()
 
