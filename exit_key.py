@@ -65,7 +65,7 @@ def leet_speak(my_string):
                 continue
             else:
                 leet_string += (i)
-    return leet_string.capitalize()
+    return leet_string.lower()
 
 def no_spaces(my_string):
     empty_string = ""
@@ -77,5 +77,5 @@ def no_spaces(my_string):
     return empty_string
 
 
-exit_key()
+# exit_key()
 
