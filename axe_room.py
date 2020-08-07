@@ -6,6 +6,9 @@ def axe_room():
     axe_total = 10
     target_hit = 0
     game_on = True
+    t = """
+    (╯ ͠° ͟ʖ ͡°)╯┻━┻
+    """
     d = """
 **********************
 *                    *
@@ -41,7 +44,6 @@ def axe_room():
 
 
     if welcome == 'goldenwizard':
-        print(x)
         pass
 
     while game_on == True and target_hit < 3:
@@ -104,6 +106,9 @@ def axe_room():
         elif message == 'no':
             print()
             print('What are you scared?')
+            print()
+            print(t)
+            print()
             print()
     else:
         print('*****************************************************')
