@@ -32,6 +32,7 @@ def exit_key():
             print('''    Your passphrase is: {}
             \n'''.format(leet_speak(code)))
             enter("The door opens!")
+            break
         else:
             acc += 1
             countdown -= 1
@@ -76,5 +77,5 @@ def no_spaces(my_string):
     return empty_string
 
 
-# exit_key()
+exit_key()
 
