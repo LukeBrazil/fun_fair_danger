@@ -11,10 +11,10 @@ Python 3
 
 ## Screenshots
 https://user-images.githubusercontent.com/57376030/89552737-2b6eb100-d7d2-11ea-8cac-fffc9d3ad821.png
-https://user-images.githubusercontent.com/64337863/89739640-5b2aec80-da50-11ea-9e36-4071f8413bdd.png
-https://user-images.githubusercontent.com/64337863/89739645-68e07200-da50-11ea-9348-4018c93e7237.png
-https://user-images.githubusercontent.com/64337863/89739649-6d0c8f80-da50-11ea-90fe-d4c50388fced.png
-https://user-images.githubusercontent.com/64337863/89739650-70078000-da50-11ea-8b7e-fbeeaa1a004e.png
+https://user-images.githubusercontent.com/64337863/89739728-223f4780-da51-11ea-9cb8-b4a706a6de97.png
+https://user-images.githubusercontent.com/64337863/89739745-3b47f880-da51-11ea-991f-be9546ff3625.png
+https://user-images.githubusercontent.com/64337863/89739763-51ee4f80-da51-11ea-9eae-b717d12ea292.png
+https://user-images.githubusercontent.com/64337863/89739751-43a03380-da51-11ea-8709-c6d652c6e68f.png
 
 ## Installation
 * Clone repo from https://github.com/LukeBrazil/fun_fair_danger
