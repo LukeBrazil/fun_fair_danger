@@ -1,0 +1,1 @@
+alias fun_fair_danger="cd ~/Documents/digital_crafts/week_two/fun_fair_danger && code ."
