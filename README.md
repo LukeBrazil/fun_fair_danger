@@ -11,9 +11,9 @@ Python 3
 
 ## Screenshots
 https://user-images.githubusercontent.com/57376030/89552737-2b6eb100-d7d2-11ea-8cac-fffc9d3ad821.png
-![image](https://user-images.githubusercontent.com/64337863/89736703-4f7ffb80-da39-11ea-85ad-c557a62de129.png)
-![image](https://user-images.githubusercontent.com/64337863/89736706-59a1fa00-da39-11ea-9548-7ad99bc2de7a.png)
-![image](https://user-images.githubusercontent.com/64337863/89736715-632b6200-da39-11ea-96ed-17a13426834e.png)
+https://user-images.githubusercontent.com/64337863/89736703-4f7ffb80-da39-11ea-85ad-c557a62de129.png
+https://user-images.githubusercontent.com/64337863/89736706-59a1fa00-da39-11ea-9548-7ad99bc2de7a.png
+https://user-images.githubusercontent.com/64337863/89736715-632b6200-da39-11ea-96ed-17a13426834e.png
 
 
 ## Installation
