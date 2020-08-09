@@ -11,11 +11,11 @@ def exit_key():
 
 "Psviq 4twyq hspsv wmx eqix, gsrwigxixyv ehmtmwgmrk ipmx. Tippirxiwuyi 8jj ijjmgmxyv evgy. Wywtirhmwwi lymw yvre jvmrkmppe, ikiwxew svgm rig, psfsvxmw rmfl. Qeyvmw 0x qsppmw ivex. Gvew 9ip yvre zipmx. Ixmeq 6eygmfyw pmfivs zip xyvtmw gyvwyw, ex yppeqgsvtiv rmwp gsrwigxixyv. Ryppeq 3mx eqix pygxyw wetmir. Req 5srzeppmw ivsw e typzmrev gsrwiuyex. Mr zilmgype, pmkype tsvxxmxsv tlevixve jivqirxyq, jipmw hspsv jegmpmwmw eykyi, mh kvezmhe ryppe zipmx eg svgm. Wywtirhmwwi 2kix eygxsv zipmx.
 
-"Ryppeq 7y shms iy hmeq kvezmhe xiqtyw ijjmgmxyv iy pmfivs. Hsrig 9ygxyw pis nywxs, zmxei qexxmw hmeq tswyivi jegmpmwmw. Eirier 0pmuyix gsrkyi qsppmw."''')
+"Ryppeq 7y shms iy hmeq kvezmhe xiqtyw ijjmgmxyv iy pmfivs. Eirier 0pmuyix gsrkyi qsppmw."''')
     print(Fore.WHITE + Back.BLACK)
     print(Fore.WHITE + Back.BLACK + '''\n    The exit code is embedded in this Wizard speak. Read my instructions carefully.\n
     --Take the FIRST CHARACTER of the SECOND WORD in EACH SENTENCE
-    to make a 21 character code. \n
+    to make a 12 character code. \n
     --You only have 3 tries, so yes, be careful!
     ''')
     # code = input("    Enter code here: ")
@@ -33,12 +33,18 @@ def exit_key():
             \n'''.format(leet_speak(code)))
             enter(Fore.WHITE + "The door opens!")
             break
+        elif clean_code == "cheatcode":
+            print()
+            print("    Your passphrase is: " + Fore.YELLOW + "goldenwizard" + Fore.WHITE)
+            enter(Fore.WHITE + "The door opens!")
+            break
         else:
             acc += 1
             countdown -= 1
             print(f"Try again! You have {countdown} tries left!\n")
             if countdown == 0:
                 print("Game over! You are stuck in the wizard room forever.")
+                exit()
 
 leet_dict = {
 

@@ -7,7 +7,7 @@ from pip._vendor.colorama import Fore, Back, Style
 ## Welcome lines
 welcome = '''Welcome to the FunFair! 
 You are on an adventure in a world of magic and danger. Keep your wits about you.
-Upon entering each room you will need to find a secret code. Don’t forget it; you will need to exit the FunFair at the end. 
+Upon entering each room you will need to find a secret code. Don’t forget it; you will need it to exit the FunFair at the end. 
 Good luck, don’t forget your snacks, water, and fairy dust. Presse enter to continue!'''
 
 ### Enter wizard room
@@ -31,9 +31,17 @@ def run_fortune_teller():
             game_on = False
         else:
             game_on = True
+    name = ""
     while game_on == True:
-        name = enter('"Tell me your name my dear"\n')
+        if name == "":
+            name = enter('"Tell me your name my dear"\n')
+        if name == "":
+            print("Name cannot be empty!")
+            continue
         birth_year = enter('"And what is your birth year?"\n')
+        if birth_year == "":
+            print("Birth Year cannot be empty!")
+            continue
         fortune_topic()
         enter(''' "You can now exit my room!"\n
             But wait... as she heads toward the door she takes a stumble on the sash of her

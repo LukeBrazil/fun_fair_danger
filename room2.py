@@ -117,7 +117,7 @@ def axe_room():
         print()
         print('Here is your Golden Axe! Use this Golden Axe to continue through the maze!')
         print()
-        print('Your code for Room 2 is: ' + Fore.YELLOW + 'goldenaxe')
+        print('Your code for Axe Room is: ' + Fore.YELLOW + 'goldenaxe')
         print()
         print(Fore.WHITE + '*****************************************************')
 
