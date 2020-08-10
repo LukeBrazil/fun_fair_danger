@@ -1,3 +1,4 @@
+
 from pip._vendor.colorama import Fore, Back, Style
 from helper import enter
 x = Fore.LIGHTMAGENTA_EX + """
@@ -13,6 +14,7 @@ x = Fore.LIGHTMAGENTA_EX + """
 *******************************************************************************************************
 """
 
+
 c= Fore.CYAN + """
 
 
@@ -21,8 +23,10 @@ c= Fore.CYAN + """
                             █▀▀ █▀▄ ██▄ ▄█ ▄█   ██▄ █░▀█ ░█░ ██▄ █▀▄
                             
 """ + Fore.WHITE
+
 def print_intro():
     print(x)
     enter(c)
 
 print_intro()
+forward = input("")
